@@ -2,26 +2,26 @@ Project Overview:
 
 This SQL project focuses on designing a database to manage and analyze data for the Azuz website. The dataset consists of four tables:
 
-Sales:
-userid: Unique identifier for each customer
-created_date: Date the order was created on the website
-product_id: Unique identifier for each product
-Products:
-product_id: Unique identifier for each product
-product_name: Name of each product
-price: Price for each product
-goldusers_signup:
-userid: Unique identifier for each customer
-gold_signup_date: Date the customer signed up to become a gold member
-users:
-userid: Unique identifier for each customer
-signup_date: Date the customer first signed up for the website
+1. Sales:
+- userid: Unique identifier for each customer
+- created_date: Date the order was created on the website
+- product_id: Unique identifier for each product
+2. Products:
+- product_id: Unique identifier for each product
+- product_name: Name of each product
+- price: Price for each product
+3. goldusers_signup:
+- userid: Unique identifier for each customer
+- gold_signup_date: Date the customer signed up to become a gold member
+4. users:
+- userid: Unique identifier for each customer
+- signup_date: Date the customer first signed up for the website
+
 Regarding the Azuz website project:
+- Customer behavior analysis: Utilize the existing datasets to analyze the total amount spent by each customer on the website, purchase frequency, and the most frequently purchased products by each customer.
+- Customer behavior analysis before and after becoming a gold member: Analyze the first product purchased by a customer after becoming a gold member, and conversely, the products purchased and total spending on the website before becoming a member.
+- Analysis of customer promotion programs: Analyze the effectiveness of the points accumulation program for all customers and for gold members.
+- Summarize all orders placed by customers on the website.
 
-Customer behavior analysis: Utilize the existing datasets to analyze the total amount spent by each customer on the website, purchase frequency, and the most frequently purchased products by each customer.
-Customer behavior analysis before and after becoming a gold member: Analyze the first product purchased by a customer after becoming a gold member, and conversely, the products purchased and total spending on the website before becoming a member.
-Analysis of customer promotion programs: Analyze the effectiveness of the points accumulation program for all customers and for gold members.
-Summarize all orders placed by customers on the website.
 Conclusion:
-
 The data management project for the Azuz website has demonstrated customer consumption behavior on the website. From these perspectives, the website owner can gain insights into the website's performance, products, and subsequently, develop strategies such as a points accumulation program to attract customers and improve brand preference.
